@@ -135,10 +135,7 @@
                 Type = Boolean;
                 DefaultValue = NO;
                 CommandLineArgs = {
-                    YES = (
-                        "-Xlinker",
-                        "-export_dynamic",
-                    );
+                    YES = ();
                     NO = ();
                 };
             },
